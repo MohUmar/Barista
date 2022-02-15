@@ -1,0 +1,719 @@
+/*
+font-family: 'Dongle', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.margin
+{
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+
+.social
+{
+    padding: 10px 0px;
+    background: rgba(48, 39, 28, 1);
+    color: white;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 100;
+    height: auto;
+}
+.call p:hover
+{
+    color:#c7a17a ;
+}
+.social .socialcon .info .mail
+{
+    padding-left: 10px;
+}
+.social .socialcon
+{
+    flex-wrap: wrap;
+}
+
+.social .socialcon .info a
+{
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+    padding-left: 10px;
+    transition: 1s;
+}
+.social .socialcon .info a:hover
+{
+    color: #c7a17a;
+}
+.social .socialcon .info1 
+{
+    text-align: right;
+    /* border: 2px solid red; */
+    cursor: pointer;
+}
+
+.nav
+{
+    padding: 20px 0px;
+}
+
+.nav .navcon .img img
+{
+    height: 30px;
+}
+.nav .navcon .navi
+{
+    /* border: 2px solid red; */
+    display: inline-block;
+    text-align: right;
+}
+.nav .navcon .navi ul  
+{
+    margin: 0;
+    padding: 0;
+}
+.nav .navcon .navi .important
+{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.nav .navcon .navi .important .active a
+{
+    color:#c7a17a;
+    padding-bottom: 30px;
+    
+}
+
+.nav .navcon .navi .important li
+{
+    list-style-type: none;
+    
+}
+
+.nav .navcon .navi .important li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 10px;
+     color: rgba(48, 39, 28, 1);
+    font-weight: 700;
+}
+.nav .navcon .navi .important li a:hover 
+{
+    color:#c7a17a ;
+}
+.nav .navcon .navi .important .active .seminav
+{
+     border-top: 2px solid #c7a17a; 
+    text-align: left;     
+    display: none;
+    transition:  5s; 
+    margin-top: 30px;
+    position: absolute;
+    background: white;
+}
+.nav .navcon .navi .important .active .seminav ul 
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav .navcon .navi .important .active .seminav ul li 
+{
+    margin-top:10px;
+}
+.nav .navcon .navi .important .active .seminav ul li a  
+{
+    color: rgba(48, 39, 28, 1);
+    font-size: 15px;
+    font-weight: 200; 
+    transition: width 5s; 
+    word-spacing: 3px; 
+     
+}
+.nav .navcon .navi .important .active .seminav ul li a:hover
+{
+    color:#c7a17a ;
+}
+.nav .navcon .navi .important .active:hover .seminav
+{
+    display: block;   
+    
+}
+.nav .navcon .navi .important .list .seminav2
+{
+    border-top:2px solid #c7a17a;
+    text-align: left;
+    display: none; 
+    margin-top: 30px; 
+     
+
+}
+.nav .navcon .navi .important .list ul 
+{
+    padding-top: 13px;
+    padding-bottom: 15px;    
+}
+.nav .navcon .navi .important .list ul li
+{
+   margin-top: 15px;
+}
+.nav .navcon .navi .important .list a 
+{
+    padding-bottom: 30px;
+    color: rgba(48, 39, 28, 1);
+}
+.nav .navcon .navi .important .list ul li a 
+{
+    font-size: 15px;
+    font-weight: 200;
+    word-spacing: 3px;
+           
+}
+.nav .navcon .navi .important .list:hover  .seminav2
+{
+    display: block;
+    position: absolute;
+    background: white;
+}
+.nav .navcon .bag
+{
+    display: inline-flex;
+    
+    justify-content: right;
+    
+    
+}
+.nav .navcon .bag i 
+{
+   padding-right: 20px;
+   color:black;   
+}
+
+.image
+{
+    height: 700px;
+    background: url('img/home-5-slider-img-1.jpg');
+    background-size: 100% 100%; 
+}
+.image .imagecon
+{
+    font-family: 'Lato',sans-serif;    
+}
+.image .imagecon div
+{
+    padding-top: 200px;
+}
+.image .imagecon div h1 
+{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 900;
+    word-spacing: 2px;
+    color: rgba(48, 39, 28, 1);
+}
+.image .imagecon div p 
+{
+    font-style: italic;
+    font-size: 22px;
+    padding-top:20px;
+    font-weight: 400;
+    color: rgba(48, 39, 28, 1);
+}
+.image .imagecon div button
+{
+    background-color: rgba(48, 39, 28, 1);
+    text-align: center;
+    padding: 18px 30px;
+    margin-top:20px;
+    color: white;
+    font-weight: 800;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+}
+section .offercon
+{
+    padding: 70px 0px;
+}
+section .offercon .offer1
+{
+   background: url("img/h-5-baner-img-1.jpg");
+   background-size: 100% 100%;
+   height: 300px; 
+   width: 48%; 
+   transition: 1s; 
+}
+section .offercon .offer2
+{
+   background: url("img/home-5-baner-img-2.jpg");
+   background-size: 100% 100%;
+   height: 300px;
+   margin-left: 15px;
+   width: 48%;
+   transition: 1s;
+   
+}
+section .offercon .offer1:hover
+{
+    box-shadow: 0 0 0 180px inset rgba(7, 6, 6, 0.136);
+	
+        
+}
+section .offercon .offer2:hover
+{
+    box-shadow: 0 0 0 180px inset rgba(7, 6, 6, 0.136);
+}
+section .offercon h1
+{
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    font-weight: 900;
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+}
+section .offercon p 
+{
+    font-family: 'Lato',sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+.product 
+{
+    padding-top: 10px;
+    text-align: center;
+}
+.product p
+{
+    font-size:23px; 
+    color:#c7a17a ; 
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic; 
+}
+.product h2
+{
+    font-size:28px ;
+    color: rgba(48, 39, 28, 1);
+    font-weight: 900;
+    font-family: 'Lato',sans-serif;
+    padding-top: 15px;
+}
+.productcon
+{
+    padding: 30px 0px 15px 0px;
+    text-align: left;
+
+}
+
+.productcon img 
+{
+    height: 300px; 
+    width: 90%; 
+    filter: contrast(99%);       
+}
+.list1
+{
+    position: relative;
+     
+
+}
+.product .productcon .add i 
+{
+    padding: 13px 0px;
+    color: white;     
+} 
+.product .productcon .list1 .add
+{
+    text-align: center;    
+    background:#c7a17a;
+    display: block;
+    position: absolute;  
+    z-index: 2; 
+    bottom: 20%;
+    visibility: hidden;
+    transition: 0.5s;        
+}
+.productcon .list1:hover  .add
+{
+    visibility: visible; 
+    animation: add 2s linear;
+    
+}
+@keyframes add 
+{
+    0%{opacity: 0;background:#c7a17a}
+    10%{opacity: 0.1;}
+    20%{opacity: 0.2;}
+    30%{opacity: 0.3;}
+    40%{opacity: 0.4;}
+    50%{opacity: 0.5;}
+    60%{opacity: 0.6;}
+    70%{opacity: 0.7;}
+    80%{opacity: 0.8;}
+    90%{opacity: 0.9;}
+    100%{opacity: 1;}
+}
+
+.product .productcon p 
+{
+    font-style: normal;
+    font-weight:bolder;
+    padding-top: 10px;
+    color:rgba(48, 39, 28, 1);
+    font-size: 19px;
+    font-family: sans-serif;
+    
+}
+.product .productcon b 
+{
+    display: block;
+    font-size: 20px;
+    color:#c7a17a;
+    padding:10px 0px;
+    font-family: sans-serif;
+}
+
+
+.product1 
+{
+    padding-top: 10px;
+    text-align: center;
+    display: none;
+    margin-top: 30px;
+}
+.product1 p
+{
+    font-size:23px; 
+    color:#c7a17a ; 
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic; 
+}
+.product1 h2
+{
+    font-size:28px ;
+    color: rgba(48, 39, 28, 1);
+    font-weight: 900;
+    font-family: 'Lato',sans-serif;
+    padding-top: 15px;
+}
+.productcon1
+{
+    padding: 30px 0px 15px 0px;
+    text-align: left;
+
+}
+
+.productcon1 img 
+{
+    height: 300px; 
+    width: 90%; 
+    filter: contrast(99%);       
+}
+.list1
+{
+    position: relative;
+     
+
+}
+.product1 .productcon1 .add i 
+{
+    padding: 13px 0px;
+    color: white;     
+} 
+.product1 .productcon1 .list1 .add
+{
+    text-align: center;    
+    background:#c7a17a;
+    display: block;
+    position: absolute;  
+    z-index: 2; 
+    bottom: 20%;
+    visibility: hidden;
+    transition: 0.5s;        
+}
+.productcon1 .list1:hover  .add
+{
+    visibility: visible; 
+    animation: add 2s linear;
+    
+}
+@keyframes add 
+{
+    0%{opacity: 0;background:#c7a17a}
+    10%{opacity: 0.1;}
+    20%{opacity: 0.2;}
+    30%{opacity: 0.3;}
+    40%{opacity: 0.4;}
+    50%{opacity: 0.5;}
+    60%{opacity: 0.6;}
+    70%{opacity: 0.7;}
+    80%{opacity: 0.8;}
+    90%{opacity: 0.9;}
+    100%{opacity: 1;}
+}
+
+.product1 .productcon1 p 
+{
+    font-style: normal;
+    font-weight:bolder;
+    padding-top: 10px;
+    color:rgba(48, 39, 28, 1);
+    font-size: 19px;
+    font-family: sans-serif;
+    
+}
+.product1 .productcon1 b 
+{
+    display: block;
+    font-size: 20px;
+    color:#c7a17a;
+    padding:10px 0px;
+    font-family: sans-serif;
+}
+
+
+section .offcon
+{
+    padding: 60px 0px;
+}
+section .offcon .offer1
+{
+   background: url("img/home-5-baner-img-3.jpg");
+   background-size: 100% 100%;
+   height: 300px; 
+   width: 48%; 
+   transition: 1s; 
+}
+section .offcon .offer2
+{
+   background: url("img/home-5-baner-img-4.jpg");
+   background-size: 100% 100%;
+   height: 300px;
+   margin-left: 15px;
+   width: 48%;
+   transition: 1s;   
+}
+section .offcon .offer1:hover
+{
+    box-shadow: 0 0 0 180px inset rgba(7, 6, 6, 0.136);
+	
+        
+}
+section .offcon .offer2:hover
+{
+    box-shadow: 0 0 0 180px inset rgba(7, 6, 6, 0.136);
+}
+section .offcon  h1
+{
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    font-weight: 700;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+}
+section .offcon p 
+{
+    font-family: 'Lato',sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-top: 180px;
+    padding-left: 30px;
+}
+
+
+section .offcon1 .offer3
+{
+    background: url("img/shop-home-grid-img.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    display: none;
+    
+}
+section .offcon1 .offer3 span
+{
+    font-family: 'Lato', sans-serif;
+    color:white ;
+    font-style: italic;
+    font-weight: 500;
+}
+section .offcon1 .offer3 h2 
+{
+    font-family: 'Lato',sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 20px;
+    font-style: normal;   
+}
+section .offcon1 .offer3 button
+{
+    padding: 15px 35px;
+    background:transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    transition: 1s;
+    word-spacing: 3px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+section .offcon1 .offer3 button:hover
+{
+    background:white;
+    color: black;
+}
+.extra .extracon
+{
+      padding: 50px 0px;
+  
+}
+
+.extra .extracon .extra1 
+{
+    padding: 0px 0px  0px;
+    background: url(img/Client-1.png);
+    height: 98px;
+    background-size: 90% 87%;
+    background-repeat: no-repeat; 
+    transition: 0.3s;
+           
+}
+.extra .extracon .extra1:hover
+{
+    background-position-y: 10px;
+}
+.extra .extracon .extra2 
+{
+    padding: 0px 0px 60px 0px;
+    background: url(img/Client-2.png);
+    height: 98px;
+    background-size: 100% 91%;
+    background-repeat: no-repeat; 
+    transition: 0.3s;
+           
+}
+.extra .extracon .extra2:hover
+{
+    background-position-y: 10px;
+}
+
+.extra .extracon .extra3 
+{
+    padding: 0px 0px 60px 0px;
+    background: url(img/Client-3.png);
+    height: 98px;
+    background-size: 100% 95%;
+    background-repeat: no-repeat; 
+    transition: 0.3s;
+           
+}
+.extra .extracon .extra3:hover
+{
+    background-position-y: 10px;
+}
+.extra .extracon .extra4 
+{
+    padding: 0px 0px 60px 0px;
+    background: url(img/Client-4.png);
+    height: 98px;
+    background-size: 100% 90%;
+    background-repeat: no-repeat; 
+    transition: 0.3s;
+           
+}
+.extra .extracon .extra4:hover
+{
+    background-position-y: 10px;
+}
+.extra .extracon .extra5 
+{
+    padding: 0px 0px 60px 0px;
+    background: url(img/Client-5.png);
+    height: 98px;
+    background-size: 100% 95%;
+    background-repeat: no-repeat; 
+    transition: 0.3s;
+           
+}
+.extra .extracon .extra5:hover
+{
+    background-position-y: 10px;
+}
+.production .productioncon
+{
+    padding: 20px 0px 0px 0px;  
+
+}
+.production .productioncon .production1
+{
+    position: relative;
+}
+
+.production .productioncon .production1 img 
+{
+        height: 200px;
+        width: 100%; 
+        cursor: pointer;
+             
+}
+.production .productioncon .production1 i 
+{
+    position: absolute;
+    top: 5px;
+    right: 12.6%;
+    color: white;
+    z-index: 1;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.footer
+{
+    background: url(img/footer-img.jpg);
+    background-size:100% 100%;
+    height: 500px;
+    margin-top: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,286 @@
+@media screen and (max-width: 768px){
+    .col-x-1 {width: 8.33%;}
+    .col-x-2 {width: 16.66%;}
+    .col-x-3 {width: 25%;}
+    .col-x-4 {width: 33.33%;}
+    .col-x-5 {width: 41.66%;}
+    .col-x-6 {width: 50%;}
+    .col-x-7 {width: 58.33%;}
+    .col-x-8 {width: 66.66%;}
+    .col-x-9 {width: 75%;}
+    .col-x-10 {width: 83.33%;}
+    .col-x-11 {width: 91.66%;}
+    .col-x-12 {width: 100%;}
+    .col-x-13 {width: 20%;}
+    .col-x-14 {width: 12.5%;}
+
+    .nav .navcon .img img
+    {
+      height: 100px;
+      display: block;
+      margin: 0px auto;
+      position: relative;
+    }
+
+    .nav .navcon .navi .important li a
+    {
+      font-size: 17px;
+      margin: 0px 9px;      
+    }
+    .nav .navcon .navi
+    {
+       text-align: center;
+       padding-top: 20px;
+    }
+    .nav .navcon .navi .important .active .seminav
+    {
+      margin-top: 19px;
+    } 
+    .nav .navcon .navi .important .list1 .seminav2
+    {
+      margin-top: 19px;
+    }
+    section .offercon .offer1
+    {
+      
+      background-size: 100% 100%;
+      height: 300px; 
+      width: 98%;
+      
+    }
+    section .offercon .offer2
+    {
+      
+      background-size: 100% 100%;
+      height: 300px;
+      margin-left: 0px;
+      width: 98%;
+      margin-top: 15px;      
+    }
+   
+   
+    .image .imagecon div h1 
+    {
+      font-size: 50px;
+      line-height: 55px;
+    }
+    .image .imagecon div p
+    {
+      font-size: 17px;
+    }
+   
+    section .offcon1 .offer3
+    {
+      height: 300px;
+      display: block;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .product1 
+    {
+      display: block;
+    }
+    section .offcon .offer1
+    {
+      width: 100%;
+    }
+    section .offcon .offer2
+    {
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 15px;
+    }
+    .production .productioncon .production1 img 
+    {
+            height: 100px;
+            width: 100%;
+            
+    }
+    .production .productioncon
+    {
+        padding: 20px 0px 0px 0px;  
+
+    }
+    
+
+    .production .productioncon .production1 img 
+    {
+            height: 100px;
+            width: 100%; 
+            cursor: pointer;
+                
+    }
+    .production .productioncon .production1 i 
+    {       
+        font-size: 17px;
+    }
+    .extra .extracon .extra1 
+    {     
+        height: 80px;
+        background-size: 80% 87%;     
+              
+    }
+    .extra .extracon .extra2 
+    {     
+        height: 80px;
+        background-size: 80% 87%;     
+              
+    }
+    .extra .extracon .extra3
+    {     
+        height: 80px;
+        background-size: 80% 87%;     
+              
+    }
+    .extra .extracon .extra4 
+    {     
+        height: 80px;
+        background-size: 80% 87%;     
+              
+    }
+    .extra .extracon .extra5 
+    {     
+        height: 80px;
+        background-size: 80% 87%;     
+              
+    }
+     
+  
+  }
+  
+  @media screen and (max-width: 480px)
+  {
+    .col-xs-1 {width: 8.33%;}
+    .col-xs-2 {width: 16.66%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 33.33%;}
+    .col-xs-5 {width: 41.66%;}
+    .col-xs-6 {width: 50%;}
+    .col-xs-7 {width: 58.33%;}
+    .col-xs-8 {width: 66.66%;}
+    .col-xs-9 {width: 75%;}
+    .col-xs-10 {width: 83.33%;}
+    .col-xs-11 {width: 91.66%;}
+    .col-xs-12 {width: 100%;} 
+    .col-xs-13 {width: 20%;}
+    .col-xs-14 {width: 12.5%;}
+
+    .nav .navcon .navi
+    {
+        /* border: 2px solid red; */
+        display: block;
+        text-align: left;
+    } 
+    .nav .navcon .navi .important
+    {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    } 
+    .nav .navcon .img img
+    {
+      display: block;
+      margin: 0px auto;
+      position: relative;
+    }
+    .social .socialcon .info1 
+    {
+      text-align: left;
+    }
+    .nav .navcon .bag
+    {        
+        justify-content:right;        
+        position: absolute;        
+    }
+    section .offercon .offer1
+    {
+      
+      background-size: 100% 100%;
+      height: 150px; 
+      width: 98%;
+      
+    }
+    section .offercon .offer2
+    {
+      
+      background-size: 100% 100%;
+      height: 150px;
+      margin-left: 0px;
+      margin-top: 15px;
+      width: 98%;      
+    }
+    .image
+    {
+      height: 500px;
+    }
+   
+    .image .imagecon div h1 
+    {
+        font-size: 30px;
+        line-height: 30px;               
+    }
+    .image .imagecon div p 
+    {
+      font-size: 15px;
+    }
+    .image .imagecon div button
+    {
+         
+          padding: 15px 25px;
+          font-size: 11px;
+         
+   }
+      .productcon img 
+   {
+        height: 200px; 
+        width: 90%; 
+        filter: contrast(99%);       
+   }
+   section .offcon .offer1
+   {
+     width: 100%;
+     height: 150px;
+   }
+   section .offcon .offer2
+   {
+     width: 100%;
+    height: 150px;
+     margin-top: 15px;
+   }
+   .production .productioncon .production1 img 
+    {
+            height: 60px;
+            width: 100%; 
+            cursor: pointer;
+                
+    }
+    .production .productioncon .production1 i 
+    {       
+        font-size: 12px;
+    }
+    
+   
+    
+}
+  
+  @media screen and (min-width: 768px)
+  {
+  
+    .col-xl-1 {width: 8.33%;}
+    .col-xl-2 {width: 16.66%;}
+    .col-xl-3 {width: 25%;}
+    .col-xl-4 {width: 33.33%;}
+    .col-xl-5 {width: 41.66%;}
+    .col-xl-6 {width: 50%;}
+    .col-xl-7 {width: 58.33%;}
+    .col-xl-8 {width: 66.66%;}
+    .col-xl-9 {width: 75%;}
+    .col-xl-10 {width: 83.33%;}
+    .col-xl-11 {width: 91.66%;}
+    .col-xl-12 {width: 100%;} 
+    .col-xl-13 {width: 20%;}
+    .col-xl-14 {width: 12.5%;}
+  
+  }
